@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C200C3A72A5F84840092F32A /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200C3A62A5F84840092F32A /* HomeScreenView.swift */; };
+		C200C3A92A5F8D3B0092F32A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200C3A82A5F8D3B0092F32A /* SettingsView.swift */; };
+		C200C3AB2A5F8E0D0092F32A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200C3AA2A5F8E0D0092F32A /* GameView.swift */; };
 		C213B05C2A5CA58600064268 /* FlipSideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C213B05B2A5CA58600064268 /* FlipSideApp.swift */; };
 		C213B05E2A5CA58600064268 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C213B05D2A5CA58600064268 /* ContentView.swift */; };
 		C213B0602A5CA58800064268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C213B05F2A5CA58800064268 /* Assets.xcassets */; };
 		C213B0632A5CA58800064268 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C213B0622A5CA58800064268 /* Preview Assets.xcassets */; };
+		C213B06E2A5CA77000064268 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C213B06D2A5CA77000064268 /* OnBoardingView.swift */; };
+		C28AFB152A637F2A0095D8C6 /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28AFB142A637F290095D8C6 /* TestingView.swift */; };
+		C2CE2A8F2A62305D00329C00 /* GamePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CE2A8E2A62305D00329C00 /* GamePlayView.swift */; };
+		C2CE2A972A6236A400329C00 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CE2A962A6236A400329C00 /* CardView.swift */; };
+		C2CE2A992A63442C00329C00 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CE2A982A63442C00329C00 /* MemoryGame.swift */; };
+		C2CE2A9B2A63478400329C00 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CE2A9A2A63478400329C00 /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C200C3A62A5F84840092F32A /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		C200C3A82A5F8D3B0092F32A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C200C3AA2A5F8E0D0092F32A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		C213B0582A5CA58600064268 /* FlipSide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipSide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C213B05B2A5CA58600064268 /* FlipSideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipSideApp.swift; sourceTree = "<group>"; };
 		C213B05D2A5CA58600064268 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C213B05F2A5CA58800064268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C213B0622A5CA58800064268 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C213B06C2A5CA5E300064268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C213B06D2A5CA77000064268 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		C28AFB142A637F290095D8C6 /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
+		C2CE2A8E2A62305D00329C00 /* GamePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayView.swift; sourceTree = "<group>"; };
+		C2CE2A962A6236A400329C00 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C2CE2A982A63442C00329C00 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		C2CE2A9A2A63478400329C00 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,10 @@
 		C213B05A2A5CA58600064268 /* FlipSide */ = {
 			isa = PBXGroup;
 			children = (
+				C213B06C2A5CA5E300064268 /* Info.plist */,
+				C213B06B2A5CA5B900064268 /* ViewModel */,
+				C213B06A2A5CA5A400064268 /* Model */,
+				C213B0692A5CA58F00064268 /* Views */,
 				C213B05B2A5CA58600064268 /* FlipSideApp.swift */,
 				C213B05D2A5CA58600064268 /* ContentView.swift */,
 				C213B05F2A5CA58800064268 /* Assets.xcassets */,
@@ -65,6 +88,36 @@
 				C213B0622A5CA58800064268 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C213B0692A5CA58F00064268 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C213B06D2A5CA77000064268 /* OnBoardingView.swift */,
+				C200C3A62A5F84840092F32A /* HomeScreenView.swift */,
+				C200C3A82A5F8D3B0092F32A /* SettingsView.swift */,
+				C200C3AA2A5F8E0D0092F32A /* GameView.swift */,
+				C2CE2A8E2A62305D00329C00 /* GamePlayView.swift */,
+				C2CE2A962A6236A400329C00 /* CardView.swift */,
+				C28AFB142A637F290095D8C6 /* TestingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C213B06A2A5CA5A400064268 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2CE2A982A63442C00329C00 /* MemoryGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C213B06B2A5CA5B900064268 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C2CE2A9A2A63478400329C00 /* EmojiMemoryGame.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +190,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C200C3A92A5F8D3B0092F32A /* SettingsView.swift in Sources */,
+				C2CE2A972A6236A400329C00 /* CardView.swift in Sources */,
+				C2CE2A992A63442C00329C00 /* MemoryGame.swift in Sources */,
+				C28AFB152A637F2A0095D8C6 /* TestingView.swift in Sources */,
+				C213B06E2A5CA77000064268 /* OnBoardingView.swift in Sources */,
 				C213B05E2A5CA58600064268 /* ContentView.swift in Sources */,
+				C2CE2A8F2A62305D00329C00 /* GamePlayView.swift in Sources */,
 				C213B05C2A5CA58600064268 /* FlipSideApp.swift in Sources */,
+				C200C3AB2A5F8E0D0092F32A /* GameView.swift in Sources */,
+				C200C3A72A5F84840092F32A /* HomeScreenView.swift in Sources */,
+				C2CE2A9B2A63478400329C00 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +332,11 @@
 				DEVELOPMENT_TEAM = GV2ZUHR4F2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlipSide/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +361,11 @@
 				DEVELOPMENT_TEAM = GV2ZUHR4F2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlipSide/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

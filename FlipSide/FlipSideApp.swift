@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct FlipSideApp: App {
+    let viewModel = EmojiMemoryGame()
+    
+    @AppStorage("isOnboarding") private var isOnboarding:Bool = true
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isOnboarding {
+             OnBoardingView()
+            }
+            else{
+                ContentView()
+            }
         }
     }
 }
